@@ -5,7 +5,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
