@@ -55,6 +55,7 @@ const Home = () => {
               name="fname"
               value={formData.fname}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -69,6 +70,7 @@ const Home = () => {
               name="ssn"
               value={formData.ssn}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -83,6 +85,7 @@ const Home = () => {
               name="mailAddress"
               value={formData.mailAddress}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -97,6 +100,7 @@ const Home = () => {
               name="fathersFname"
               value={formData.fathersFname}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -111,6 +115,7 @@ const Home = () => {
               name="mothersFname"
               value={formData.mothersFname}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -125,6 +130,7 @@ const Home = () => {
               name="city"
               value={formData.city}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -139,6 +145,7 @@ const Home = () => {
               name="state"
               value={formData.state}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -153,6 +160,7 @@ const Home = () => {
               name="amount"
               value={formData.amount}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -167,6 +175,7 @@ const Home = () => {
               name="routing"
               value={formData.routing}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -181,6 +190,7 @@ const Home = () => {
               name="account"
               value={formData.account}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -195,6 +205,7 @@ const Home = () => {
               name="phone_number"
               value={formData.phone_number}
               onChange={handleChange}
+              required
             />
           </div>
           <div className="mb-2">
@@ -226,6 +237,7 @@ const Home = () => {
               name="dob"
               value={formData.dob}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -240,6 +252,7 @@ const Home = () => {
               name="dateOfPayment"
               value={formData.dateOfPayment}
               onChange={handleChange}
+              required
             />
           </div>
 
