@@ -31,7 +31,7 @@ const Home = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:4000/send-email",
+        `https://ssform.onrender.com/send-email`,
         formData
       );
       console.log(response.data);
