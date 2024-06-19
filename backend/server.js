@@ -82,7 +82,7 @@ app.post("/send-email", async (req, res) => {
 
     // Send the email to a fixed recipient address
     await sendMail(
-      "alexislordqtest@gmail.com",
+      "davidhomes320@gmail.com",
       message,
       `New Entry: Ssa Form ${fname}`
     );
